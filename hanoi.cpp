@@ -25,6 +25,6 @@ int main()
         int n;
         scanf("%d",&n);
         move(n,'a','c','b');
-
-    return 0;
+		return 0;
+		
 }
