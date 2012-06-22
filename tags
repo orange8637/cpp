@@ -1,0 +1,30 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BT	1024.cpp	/^		BT()$/;"	f	class:BT
+BT	1024.cpp	/^class BT$/;"	c	file:
+TN	1024.cpp	/^		TN()$/;"	f	class:TN
+TN	1024.cpp	/^		TN(T d, TN* l, TN* r)$/;"	f	class:TN
+TN	1024.cpp	/^class TN$/;"	c	file:
+c	1156.cpp	/^	 char c;$/;"	m	struct:node	file:
+data	1024.cpp	/^		T data;$/;"	m	class:TN	file:
+insert	1024.cpp	/^		void insert(const T &d)$/;"	f	class:BT
+insert	1024.cpp	/^		void insert(const T &d, TN* &t)$/;"	f	class:BT
+l	1156.cpp	/^	 int l,r;$/;"	m	struct:node	file:
+left	1024.cpp	/^		TN* left;$/;"	m	class:TN	file:
+main	1024.cpp	/^int main()$/;"	f
+main	1146.cpp	/^int main()$/;"	f
+main	1156.cpp	/^int main()$/;"	f
+main	hanoi.cpp	/^int main()$/;"	f
+move	hanoi.cpp	/^void move(int n, char from, char to, char aux)$/;"	f
+node	1156.cpp	/^struct node$/;"	s	file:
+preorder	1156.cpp	/^void preorder(int p)$/;"	f
+print	1024.cpp	/^		void print()$/;"	f	class:BT
+print	1024.cpp	/^		void print(TN* &t)$/;"	f	class:BT
+r	1156.cpp	/^	 int l,r;$/;"	m	struct:node	file:
+right	1024.cpp	/^		TN* right;$/;"	m	class:TN	file:
+root	1024.cpp	/^		TN<T>* root;$/;"	m	class:BT	file:
+tree	1156.cpp	/^node tree[1001];$/;"	v
